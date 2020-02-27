@@ -29,8 +29,6 @@ form {
     width: 70%;
     margin: auto;
     padding: 30px;
-    /* Decoration */
-    /*border: 2px solid red;*/
     /* Font */
     font-size: 1.6em;
 }
@@ -51,10 +49,10 @@ input {
     /* Font */
     font-size: 1.3em;
     background-color: transparent;
-    outline: none;
-    /* Border */
+    /* Decoration */
     border: 1px solid transparent;
     border-bottom: 4px solid #2d7a21;
+    outline: none;
 }
 
 input:focus {
@@ -165,15 +163,21 @@ span.label {
     font-weight: bold;
 }
 
+i {
+    /* Colors */
+    color: #ff0a44;
+}
+
+/* thanks.html Styling */
+
 #thanks {
+    /* Spacing */
     margin-top: 20%;
 }
 
 #backButton {
+    /* Display */
     display: inline-block;
+    /* Spacing */
     margin-left: 45%;
-}
-
-i {
-    color: #ff0a44;
 }
